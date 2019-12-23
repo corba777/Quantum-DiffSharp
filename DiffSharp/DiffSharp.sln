@@ -1,0 +1,93 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29509.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".paket", ".paket", "{1168F126-A9CD-4E72-AD0B-8B9475D6C0F0}"
+	ProjectSection(SolutionItems) = preProject
+		paket.dependencies = paket.dependencies
+	EndProjectSection
+EndProject
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "DiffSharp", "src\DiffSharp\DiffSharp.fsproj", "{AB5AF4D0-EC82-413D-A903-C53CE34D1CEC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{B9A8E07A-17A4-4051-8B2D-1D7027B35865}"
+	ProjectSection(SolutionItems) = preProject
+		docs\input\api-overview.fsx = docs\input\api-overview.fsx
+		docs\input\benchmarks.fsx = docs\input\benchmarks.fsx
+		docs\BuildDocs.fsx = docs\BuildDocs.fsx
+		docs\input\csharp.fsx = docs\input\csharp.fsx
+		docs\input\download.fsx = docs\input\download.fsx
+		docs\input\examples-gradientdescent.fsx = docs\input\examples-gradientdescent.fsx
+		docs\input\examples-hamiltonianmontecarlo.fsx = docs\input\examples-hamiltonianmontecarlo.fsx
+		docs\input\examples-helmholtzenergyfunction.fsx = docs\input\examples-helmholtzenergyfunction.fsx
+		docs\input\examples-inversekinematics.fsx = docs\input\examples-inversekinematics.fsx
+		docs\input\examples-kinematics.fsx = docs\input\examples-kinematics.fsx
+		docs\input\examples-kmeansclustering.fsx = docs\input\examples-kmeansclustering.fsx
+		docs\input\examples-lhopitalsrule.fsx = docs\input\examples-lhopitalsrule.fsx
+		docs\input\examples-neuralnetworks.fsx = docs\input\examples-neuralnetworks.fsx
+		docs\input\examples-newtonsmethod.fsx = docs\input\examples-newtonsmethod.fsx
+		docs\input\examples-stochasticgradientdescent.fsx = docs\input\examples-stochasticgradientdescent.fsx
+		docs\input\gettingstarted-nestedad.fsx = docs\input\gettingstarted-nestedad.fsx
+		docs\input\gettingstarted-numericaldifferentiation.fsx = docs\input\gettingstarted-numericaldifferentiation.fsx
+		docs\input\gettingstarted-symbolicdifferentiation.fsx = docs\input\gettingstarted-symbolicdifferentiation.fsx
+		docs\input\gettingstarted-typeinference.fsx = docs\input\gettingstarted-typeinference.fsx
+		docs\input\index.fsx = docs\input\index.fsx
+	EndProjectSection
+EndProject
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "Dsbench", "tests\Dsbench\Dsbench.fsproj", "{0577D15F-366A-4EB7-9BAF-73C42A38CA33}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InteropTest", "tests\InteropTest\InteropTest.csproj", "{73EDFD98-0114-4271-A92A-0F9735ED7425}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "QuantumDiffSharp", "QuantumDiffSharp\QuantumDiffSharp.fsproj", "{D3572AD6-9FC3-4C94-90E4-0314F93363A7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AB5AF4D0-EC82-413D-A903-C53CE34D1CEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB5AF4D0-EC82-413D-A903-C53CE34D1CEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB5AF4D0-EC82-413D-A903-C53CE34D1CEC}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{AB5AF4D0-EC82-413D-A903-C53CE34D1CEC}.Debug|x64.Build.0 = Debug|Any CPU
+		{AB5AF4D0-EC82-413D-A903-C53CE34D1CEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB5AF4D0-EC82-413D-A903-C53CE34D1CEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB5AF4D0-EC82-413D-A903-C53CE34D1CEC}.Release|x64.ActiveCfg = Release|Any CPU
+		{AB5AF4D0-EC82-413D-A903-C53CE34D1CEC}.Release|x64.Build.0 = Release|Any CPU
+		{0577D15F-366A-4EB7-9BAF-73C42A38CA33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0577D15F-366A-4EB7-9BAF-73C42A38CA33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0577D15F-366A-4EB7-9BAF-73C42A38CA33}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{0577D15F-366A-4EB7-9BAF-73C42A38CA33}.Debug|x64.Build.0 = Debug|Any CPU
+		{0577D15F-366A-4EB7-9BAF-73C42A38CA33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0577D15F-366A-4EB7-9BAF-73C42A38CA33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0577D15F-366A-4EB7-9BAF-73C42A38CA33}.Release|x64.ActiveCfg = Release|Any CPU
+		{0577D15F-366A-4EB7-9BAF-73C42A38CA33}.Release|x64.Build.0 = Release|Any CPU
+		{73EDFD98-0114-4271-A92A-0F9735ED7425}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73EDFD98-0114-4271-A92A-0F9735ED7425}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73EDFD98-0114-4271-A92A-0F9735ED7425}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{73EDFD98-0114-4271-A92A-0F9735ED7425}.Debug|x64.Build.0 = Debug|Any CPU
+		{73EDFD98-0114-4271-A92A-0F9735ED7425}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73EDFD98-0114-4271-A92A-0F9735ED7425}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73EDFD98-0114-4271-A92A-0F9735ED7425}.Release|x64.ActiveCfg = Release|Any CPU
+		{73EDFD98-0114-4271-A92A-0F9735ED7425}.Release|x64.Build.0 = Release|Any CPU
+		{D3572AD6-9FC3-4C94-90E4-0314F93363A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3572AD6-9FC3-4C94-90E4-0314F93363A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3572AD6-9FC3-4C94-90E4-0314F93363A7}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{D3572AD6-9FC3-4C94-90E4-0314F93363A7}.Debug|x64.Build.0 = Debug|Any CPU
+		{D3572AD6-9FC3-4C94-90E4-0314F93363A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3572AD6-9FC3-4C94-90E4-0314F93363A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3572AD6-9FC3-4C94-90E4-0314F93363A7}.Release|x64.ActiveCfg = Release|Any CPU
+		{D3572AD6-9FC3-4C94-90E4-0314F93363A7}.Release|x64.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7259E510-C7DA-4223-BDF7-33DF9BB7BEDB}
+	EndGlobalSection
+	GlobalSection(Performance) = preSolution
+		HasPerformanceSessions = true
+	EndGlobalSection
+EndGlobal

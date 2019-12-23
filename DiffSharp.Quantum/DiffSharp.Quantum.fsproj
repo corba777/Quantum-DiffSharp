@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="Quantum.AD.Float64.fs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Quantum.Development.Kit" Version="0.10.1912.501" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DiffSharp\src\DiffSharp\DiffSharp.fsproj" />
+    <ProjectReference Include="..\VariationalQuantumCircuits\VariationalQuantumCircuits.csproj" />
+  </ItemGroup>
+
+</Project>
